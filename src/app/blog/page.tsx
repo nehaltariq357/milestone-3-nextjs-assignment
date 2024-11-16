@@ -1,16 +1,15 @@
 import React from 'react'
-import { blogs } from '../data'
+import { recentPost } from '../data'
 import Link from 'next/link'
 const Blog = () => {
   return (
     <div>
         <h1>Blog</h1>
-        {blogs.map((post)=>(
+        {recentPost.map((post)=>(
             <div key={post.id}>
                 <h1>ID:{post.id}</h1>
                 <Link href={`/blog/${post.id}`}><h1>title:{post.title}</h1></Link>
-                
-                <h1>content:{post.content}</h1>
+                <h1>{post.desc}</h1>
             </div>
         ))}
     </div>
