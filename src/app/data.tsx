@@ -68,6 +68,7 @@ export const blogs = [
       title:"How to make a Game look more attractive with New VR & AI Technology",
       desc:"In the ever-evolving world of gaming, the drive to create more immersive and visually stunning experiences is at the forefront of innovation. Virtual Reality (VR) and Artificial Intelligence (AI) are two groundbreaking technologies that have revolutionized how games are designed and experienced. By leveraging these advancements, developers can significantly enhance the visual appeal, interactivity, and realism of games. This blog explores how VR and AI technologies can be utilized to make a game look more attractive, pushing the boundaries of gaming aesthetics and player engagement.",
       image:"/images/img1.png",
+      image2:"/images/image2.png",
       DetailedPage:[
         {
           title: "1. Immersive Graphics with VR",
@@ -99,6 +100,7 @@ export const blogs = [
       title: "8 Rules of Travelling In Sea You Need To Know",
       desc: "Sailing across the sea is an adventure that demands both excitement and caution. Whether you're a seasoned sailor or a first-time traveler, there are essential rules to follow to ensure a safe and enjoyable voyage. In this blog, we’ll cover the 8 critical rules that every sea traveler should know before embarking on their journey.",
       image: "/images/travel.png",
+      image2:"/images/sea-img2.png",
       DetailedPage: [
         {
           title: "1. Always Wear a Life Jacket",
@@ -217,6 +219,7 @@ export const blogs = [
       title: "How to Build a Strong Portfolio and Get a Job in UI/UX",
       desc: "Building a strong portfolio and landing a job in UI/UX design is a journey that requires both technical skills and a creative mindset. Your portfolio is often the first impression potential employers will have of you, so it's essential to showcase your best work in a well-organized, easy-to-navigate way. This blog will guide you through building a solid UI/UX portfolio and tips on how to land your first job in the industry.",
       image: "/images/portfolio.png",
+      image2:"/images/ux-img2.png",
       DetailedPage: [
         {
           title: "1. Learn the Fundamentals of UI/UX Design",
@@ -305,6 +308,7 @@ export const blogs = [
         title: "How to Be a Professional Footballer in 2023",
         desc: "Becoming a professional footballer in 2023 is a dream for many aspiring athletes, but it requires a combination of skill, physical fitness, and mental toughness. In today's highly competitive football world, it’s not just about being good with the ball – it’s about understanding the game, having the right attitude, and constantly improving yourself both on and off the pitch. The journey starts with mastering the basics: passing, dribbling, shooting, and defending. Consistent practice is key to honing these skills, and it's essential to keep evolving your game. Additionally, maintaining peak physical fitness is crucial – professional footballers must be in top shape to endure the physical demands of the game. Regular fitness routines that focus on strength, speed, and agility will help you stay ahead. However, talent alone won’t get you far; exposure and networking play a major role. Playing for local clubs, attending trials, and creating a professional social media presence are all important steps in getting noticed. Finally, adopting the right mindset, being disciplined, and staying dedicated will help you overcome challenges and increase your chances of making it to the professional level in 2023.",
         image: "/images/footballer.png",
+        image2:"/images/football-img2.png",
         DetailedPage: [
           {
             title: "1. Focus on Skill Development and Physical Fitness",
@@ -344,6 +348,7 @@ export const blogs = [
           title: "Train or Bus Journey? Which One Suits You?",
           desc: "Choosing between a train or bus for your journey depends on several factors like comfort, speed, cost, and accessibility. Trains generally offer more space, comfort, and speed, especially on long-distance routes. You can move around freely, and many trains provide sleeper options for a restful experience. However, train tickets can be more expensive, and schedules may not be as frequent depending on your location. On the other hand, buses are usually cheaper and more direct, especially for short distances or routes not served by trains. Though they may lack the comfort and speed of trains, modern buses offer amenities like Wi-Fi, recliner seats, and air conditioning. Trains may offer better scenic views, but buses can be more flexible in terms of accessibility. The best option depends on your priorities—if you value comfort and efficiency, a train might be the better choice. If budget and convenience are your main concerns, a bus journey could suit you better.",
           image: "/images/train.png",
+          image2:"/images/train-img2.png",
           DetailedPage: [
             {
               title: "1. Comfort and Space",
@@ -382,6 +387,7 @@ export const blogs = [
             title: "Best Websites to Research for Your Next Project",
             desc: "When starting a new project, thorough research is key to ensuring its success. Having the right resources can help you make informed decisions and avoid common pitfalls. A few essential websites provide valuable insights, resources, and tools that can significantly enhance your project planning process. For design inspiration, websites like Behance and Dribbble offer creative portfolios from top designers worldwide. If you're looking for tech stack recommendations, GitHub and Stack Overflow are perfect for understanding coding best practices and finding solutions to common issues. For project management and planning, platforms like Trello, Notion, and Asana provide organization tools to streamline tasks. If you're in the market for free or paid stock resources, sites like Unsplash and Pexels provide high-quality images, while Envato Elements offers everything from graphics to plugins. Conducting thorough research on these platforms will give you the knowledge and assets to approach your next project with confidence, ensuring efficiency and creativity.",
             image: "/images/project.png",
+            image2:"/images/project-img2.png",
             DetailedPage: [
               {
                 title: "1. Creative Inspiration and Design",
@@ -433,6 +439,7 @@ export const blogs = [
               title: "How to Be a Dancer in 2023 with Proper Skills",
               desc: "Becoming a professional dancer requires dedication, skill development, and continuous learning. In 2023, the landscape of dance has evolved with more access to online classes, social media platforms, and diverse dance styles. To be a successful dancer, it's essential to master the basics and consistently improve. Start by selecting a dance style that excites you, whether it's hip-hop, contemporary, ballet, or jazz. Training in multiple styles can enhance versatility, making you more adaptable and appealing to various audiences. It's also crucial to improve your body conditioning, flexibility, and strength through regular fitness routines. Attending dance workshops and seeking mentorship from experienced dancers can provide valuable insights and feedback to refine your technique. Additionally, building a strong online presence through platforms like Instagram and YouTube can help showcase your talent and attract opportunities. Networking with other dancers and choreographers is essential for finding gigs and building a professional career. Lastly, always stay inspired, learn new techniques, and be open to feedback – this continuous evolution will set you apart in the competitive world of dance.",
               image: "/images/dancer.png",
+              image2:"/images/dancer.png",
               DetailedPage: [
                 {
                   title: "1. Master the Basics and Build Your Technique",
@@ -483,6 +490,7 @@ export const blogs = [
                 title: "Who is the Best Singer on Chart? Know Him?",
                 desc: "The current music charts are filled with talented artists, but some singers dominate the scene. Bruno Mars leads with 132.67 million monthly listeners on Spotify, showcasing his consistent popularity. The Weeknd is another chart-topping artist with 120.35 million listeners, known for his hit singles like 'Blinding Lights.' Lady Gaga follows closely with 114.39 million listeners, maintaining a strong presence in both pop and film. Additionally, Arijit Singh from India boasts 124.9 million followers, leading the Spotify charts in his country. These artists are not only popular but have created unforgettable music that resonates globally. Whether through smooth pop, engaging R&B, or Bollywood hits, these singers continue to shape the music industry and captivate audiences worldwide.",
                 image: "/images/singer.png",
+                image2:"/images/singer.png",
                 DetailedPage: [
                   {
                     title: "1. Bruno Mars: The Multi-Talented Artist",
@@ -534,6 +542,7 @@ export const blogs = [
                   title: "How to Start an Import-Export Business from Home",
                   desc: "Starting an import-export business from home can be an exciting and profitable venture, requiring careful research, planning, and compliance with laws and regulations. In this digital era, managing a global trade business from home is more achievable than ever. Key steps include selecting a niche market, understanding legal requirements, building relationships with suppliers and buyers, and setting up a functional home office. Import-export businesses often require attention to customs regulations, payment systems, and logistics, but with the right resources, success is within reach.",
                   image: "/images/business.png",
+                  image2:"/images/business-img2.png",
                   DetailedPage: [
                     {
                       title: "1. Research and Select Your Niche",
@@ -583,8 +592,9 @@ export const blogs = [
                   {
                     id: 10,
                     title: "How to Make Delicious Drinks with Chocolate and Milk",
-                    desc: "Chocolate and milk make the perfect pairing for creating rich, creamy, and indulgent drinks. From hot chocolate to milkshakes, these drinks are loved by all ages. In this post, we’ll explore some easy recipes to enjoy chocolate in your beverages, whether you’re in the mood for something hot, cold, or even a bit more indulgent.",
+                    desc: "Chocolate and milk make the perfect pairing for creating rich, creamy, and indulgent drinks. From hot chocolate to milkshakes, these drinks are loved by all ages. In this post, we’ll explore some easy recipes to enjoy chocolate in your beverages, whether you’re in the mood for something hot, cold, or even a bit more indulgent.Chocolate and milk make the perfect pairing for creating rich, creamy, and indulgent drinks. From hot chocolate to milkshakes, these drinks are loved by all ages. In this post, we’ll explore some easy recipes to enjoy chocolate in your beverages, whether you’re in the mood for something hot, cold, or even a bit more indulgent.",
                     image: "/images/chocolate.png",
+                    image2:"/images/chocolate-img2.png",
                     DetailedPage: [
                       {
                         title: "1. Hot Chocolate",
@@ -599,32 +609,8 @@ export const blogs = [
                           }
                         ]
                       },
-                      {
-                        title: "2. Chocolate Milkshake",
-                        content: [
-                          {
-                            subtitle: "a. Creamy Chocolate Milkshake",
-                            description: "Blend together milk, chocolate syrup, and vanilla ice cream to create a thick and creamy chocolate milkshake. Serve with a dollop of whipped cream for an extra indulgent treat."
-                          },
-                          {
-                            subtitle: "b. Banana Chocolate Milkshake",
-                            description: "For a fruity twist, add a banana to your milkshake. The natural sweetness of the banana pairs perfectly with the rich chocolate for a deliciously creamy drink."
-                          }
-                        ]
-                      },
-                      {
-                        title: "3. Chocolate Latte",
-                        content: [
-                          {
-                            subtitle: "a. Simple Chocolate Latte",
-                            description: "Make a comforting chocolate latte by combining brewed coffee or espresso with chocolate syrup and steamed milk. Top with frothy milk and a sprinkle of cocoa powder for a cozy treat."
-                          },
-                          {
-                            subtitle: "b. Iced Chocolate Latte",
-                            description: "For a refreshing cold option, blend together cold milk, espresso, and chocolate syrup. Add ice for a chilled version of this classic drink."
-                          }
-                        ]
-                      }
+                     
+                    
                     ]
                   },
                 ];
