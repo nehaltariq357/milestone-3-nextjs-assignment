@@ -9,7 +9,7 @@ const Blog = () => {
   const popularPost = recentPost.filter((p) => p.id >= 5); // filter id
 
   return (
-    <main className="px-4 md:px-10 lg:px-20 md:mx-10">
+    <main className="px-4 md:px-10 lg:px-20 md:mx-10 min-h-screen">
       <h1 className="text-3xl font-bold my-10">Our Recent Post</h1>
 
       <div>
@@ -65,9 +65,10 @@ const Blog = () => {
                 {post.desc.slice(0, 200)}
               </h1>
               <Link href={`/blog/${post.id}`}>
-              <div className="text-customPurple border-2 border-customPurple px-5 py-2 rounded-md cursor-pointer hover:bg-customPurple hover:text-white w-fit my-5">
-                    Read More
-                  </div>   </Link>
+                <div className="text-customPurple border-2 border-customPurple px-5 py-2 rounded-md cursor-pointer hover:bg-customPurple hover:text-white w-fit my-5">
+                  Read More
+                </div>{" "}
+              </Link>
             </div>
           </div>
         ))}
@@ -97,9 +98,10 @@ const Blog = () => {
                 {post.desc.slice(0, 200)}
               </h1>
               <Link href={`/blog/${post.id}`}>
-              <div className="text-customPurple border-2 border-customPurple px-5 py-2 rounded-md cursor-pointer hover:bg-customPurple hover:text-white w-fit">
-                    Read More
-                  </div>   </Link>
+                <div className="text-customPurple border-2 border-customPurple px-5 py-2 rounded-md cursor-pointer hover:bg-customPurple hover:text-white w-fit">
+                  Read More
+                </div>{" "}
+              </Link>
             </div>
           </div>
         ))}

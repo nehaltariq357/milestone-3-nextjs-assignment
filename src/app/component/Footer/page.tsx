@@ -51,11 +51,7 @@ const Footer = () => {
             YT
           </li>
         </div>
-
-        {/* Horizontal Line */}
         <hr className="w-full md:w-[80%] border-t-[1px] border-customPurple mt-5" />
-
-        {/* Footer Text */}
         <p className="text-xs md:text-sm text-center">
           Copyright Ideapeel Inc © 2024. All Rights Reserved.
         </p>

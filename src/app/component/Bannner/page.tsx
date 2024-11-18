@@ -5,8 +5,8 @@ import Image from 'next/image';
 const Banner = () => {
   return (
     <main>
-      <div className="bg-customPurple h-screen text-white pt-5 pb-10 md:pt-0 md:pb-0">
-        <div className="grid grid-cols-1 md:grid-cols-2 h-full">
+      <div className="bg-customPurple min-h-screen text-white pt-5 pb-10 md:pt-0 md:pb-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen items-center">
           {/* left grid */}
           <div className="flex justify-center items-center w-full h-full mb-10">
             <div className="space-y-8 md:ml-28 text-center md:text-left px-5 w-full">

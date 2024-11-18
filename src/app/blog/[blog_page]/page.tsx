@@ -1,6 +1,7 @@
 import React from 'react';
 import { recentPost } from '@/app/data';
 import Image from 'next/image';
+import Comment_Section from '@/app/component/Comment_Section/page';
 
 const BlogPage = ({ params }: { params: { blog_page: string } }) => {
   return (
@@ -10,11 +11,11 @@ const BlogPage = ({ params }: { params: { blog_page: string } }) => {
         .map((post) => (
           <div key={post.id}>
             {/* Header Section */}
-            <div className="flex flex-col items-center justify-center">
-              <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-center text-customPurple mb-6 leading-tight">
+            <div className="flex flex-col items-center justify-center space-y-10">
+              <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-center text-customPurple mb-6 leading-tight my-10 cursor-pointer">
                 {post.title}
               </h1>
-              <div className="w-full md:w-3/4 lg:w-1/2 shadow-lg rounded-lg overflow-hidden">
+              <div className="w-full md:w-3/4 lg:w-1/2 rounded-lg overflow-hidden">
                 <Image
                   className="rounded-md hover:scale-105 transition-transform duration-300 ease-in-out"
                   src={post.image2}
@@ -23,19 +24,17 @@ const BlogPage = ({ params }: { params: { blog_page: string } }) => {
                   height={400}
                 />
               </div>
-              <p className="text-base md:text-lg lg:text-xl mt-6 text-justify w-full md:w-3/4 lg:w-1/2 text-gray-700 leading-relaxed">
-                {post.desc}
-              </p>
             </div>
 
             {/* Detailed Content Section */}
             <div className="my-20 space-y-8">
+              <h1 className='text-3xl md:text-5xl lg:text-6xl font-extrabold text-center text-customPurple mb-6 leading-tight cursor-pointer'>content</h1>
               {post.DetailedPage.map((detailed, i) => (
                 <div key={i}>
                   {detailed.content?.map((content, j) => (
                     <div
                       key={j}
-                      className="bg-white rounded-lg shadow-lg p-6 md:p-8 lg:p-10 text-gray-800 w-full md:w-3/4 lg:w-1/2 mx-auto hover:shadow-xl transition-shadow duration-300 ease-in-out"
+                      className="bg-white rounded-lg p-6 md:p-8 lg:p-10 text-gray-800 w-full md:w-3/4 lg:w-1/2 mx-auto "
                     >
                       <p className="text-lg md:text-xl lg:text-2xl text-center leading-loose">
                         {content.description}
@@ -44,6 +43,8 @@ const BlogPage = ({ params }: { params: { blog_page: string } }) => {
                   ))}
                 </div>
               ))}
+              {/* comments */}
+              <Comment_Section/>
             </div>
           </div>
         ))}
