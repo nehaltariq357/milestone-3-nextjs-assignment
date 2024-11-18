@@ -3,20 +3,18 @@ import { recentPost } from '@/app/data';
 import Image from 'next/image';
 import Comment_Section from '@/app/component/Comment_Section/page';
 
-interface BlogPageProps {
-  params: {
-    blog_page: string;
-  };
-}
+type Params = {
+  blog_page: string;
+};
 
-const BlogPage = ({ params }: BlogPageProps) => {   
+const BlogPage = ({ params }: { params: Params }) => {
   return (
     <div className="px-4 md:px-8 lg:px-16 bg-gray-50">
       {recentPost
         .filter((post) => String(post.id) === params.blog_page)
         .map((post) => (
           <div key={post.id}>
-            {/* Header Section **/}
+            {/* Header Section */}
             <div className="flex flex-col items-center justify-center space-y-10">
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-center text-customPurple mb-6 leading-tight my-10 cursor-pointer">
                 {post.title}
