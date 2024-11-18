@@ -3,7 +3,13 @@ import { recentPost } from '@/app/data';
 import Image from 'next/image';
 import Comment_Section from '@/app/component/Comment_Section/page';
 
-const BlogPage = ({ params }: { params: { blog_page: string } }) => {
+interface BlogPageProps {
+  params: {
+    blog_page: string;
+  };
+}
+
+const BlogPage = ({ params }: BlogPageProps) => {   
   return (
     <div className="px-4 md:px-8 lg:px-16 bg-gray-50">
       {recentPost
