@@ -3,11 +3,13 @@ import { recentPost } from '@/app/data';
 import Image from 'next/image';
 import Comment_Section from '@/app/component/Comment_Section/page';
 
-type Params = {
-  blog_page: string;
+type BlogPageProps = {
+  params: {
+    blog_page: string;
+  };
 };
 
-const BlogPage = ({ params }: { params: Params }) => {
+const BlogPage = ({ params }: BlogPageProps) => {
   return (
     <div className="px-4 md:px-8 lg:px-16 bg-gray-50">
       {recentPost
@@ -32,7 +34,7 @@ const BlogPage = ({ params }: { params: Params }) => {
 
             {/* Detailed Content Section */}
             <div className="my-20 space-y-8">
-              <h1 className='text-3xl md:text-5xl lg:text-6xl font-extrabold text-center text-customPurple mb-6 leading-tight cursor-pointer'>content</h1>
+              <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-center text-customPurple mb-6 leading-tight cursor-pointer">content</h1>
               {post.DetailedPage.map((detailed, i) => (
                 <div key={i}>
                   {detailed.content?.map((content, j) => (
@@ -48,7 +50,7 @@ const BlogPage = ({ params }: { params: Params }) => {
                 </div>
               ))}
               {/* comments */}
-              <Comment_Section/>
+              <Comment_Section />
             </div>
           </div>
         ))}
