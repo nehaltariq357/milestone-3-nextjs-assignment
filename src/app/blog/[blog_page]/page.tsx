@@ -16,7 +16,7 @@ const BlogPage = ({ params }: BlogPageProps) => {
         .filter((post) => String(post.id) === params.blog_page)
         .map((post) => (
           <div key={post.id}>
-            {/* Header Section */}
+            {/* Header Section ***/}
             <div className="flex flex-col items-center justify-center space-y-10">
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-center text-customPurple mb-6 leading-tight my-10 cursor-pointer">
                 {post.title}
